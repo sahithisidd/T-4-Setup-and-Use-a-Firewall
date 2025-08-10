@@ -25,9 +25,10 @@ To simulate network traffic between two endpoints on the same machine, I used tw
 
 ### 3. Started a Listener on Port 23
 In the first Command Prompt, I navigated to the Nmap folder and started a listener on TCP port 23:
-```powershell
+```bash
 cd "C:\Program Files (x86)\Nmap"
 ncat -lv 23
+```
 
 What this does:
 
