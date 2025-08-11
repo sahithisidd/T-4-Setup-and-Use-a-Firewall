@@ -72,5 +72,5 @@ ncat 127.0.0.1 23
 This time, it failed — the firewall silently blocked the connection, proving that the rule worked.
 
 ### 8. Removed the Test Block Rule
-After testing, I deleted the "Block Telnet 23" rule to restore my firewall to its original state.
+After testing, I deleted the "Block Telnet port  23" rule to restore my firewall to its original state.
 
